@@ -1,3 +1,64 @@
-baseURL = "http://example.org/"
+baseURL = "http://juancgalan.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Dr. Juan Carlos Galan Hernandez"
+
+theme = "split"
+
+googleAnalytics = ""
+
+copyright = "&copy;2018 Juan Carlos Galán Hernández"
+
+[params.visual.image]
+    enable = true
+    file = "images/portada.jpg"
+    position = "center center"
+
+    [params.visual.video]
+        enable = false
+        mute = true
+        file = ""
+
+    [[params.links]]
+        [params.links.list3]
+            heading = "Portfolio"
+            [[params.links.list3.link]]
+                text = "Showcase"
+                url ="#"
+
+            [[params.links.list3.link]]
+                text = "Github"
+                url ="https://github.com/juancgalan"
+            
+            [[params.links.list3.link]]
+                text = "Research Gate"
+                url = "jcgalanh@gmail.com"
+
+    [[params.links]]
+        [params.links.list1]
+            heading = "Connect"
+
+            [[params.links.list1.link]]
+                text = "Blog"
+                url ="https://blog.juancgalan.com"
+            
+            [[params.links.list1.link]]
+                text = "Email"
+                url = "jcgalanh@gmail.com"
+
+    [[params.links]]
+        [params.links.list2]
+            heading = "Social"
+
+            [[params.links.list2.link]]
+            text = "Twitter"
+            url = "#"
+
+            [[params.links.list2.link]]
+            text = "Instagram"
+            url = "#"
+
+            [[params.links.list2.link]]
+            text = "YouTube"
+            url = "#"
+
+
