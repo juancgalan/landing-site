@@ -2,63 +2,41 @@ baseURL = "https://juancgalan.com/"
 languageCode = "en-us"
 title = "Dr. Juan Carlos Galan Hernandez"
 
-theme = "split"
+theme = "forty"
 
 googleAnalytics = ""
-
-copyright = "&copy;2018 Juan Carlos Galán Hernández"
-
-[params.visual.image]
-    enable = true
-    file = "images/portada.jpg"
-    position = "center center"
-
-    [params.visual.video]
-        enable = false
-        mute = true
-        file = ""
-
-    [[params.links]]
-        [params.links.list3]
-            heading = "Portfolio"
-            [[params.links.list3.link]]
-                text = "Showcase"
-                url ="#"
-
-            [[params.links.list3.link]]
-                text = "Github"
-                url ="https://github.com/juancgalan"
-            
-            [[params.links.list3.link]]
-                text = "Research Gate"
-                url = "jcgalanh@gmail.com"
-
-    [[params.links]]
-        [params.links.list1]
-            heading = "Connect"
-
-            [[params.links.list1.link]]
-                text = "Blog"
-                url ="https://blog.juancgalan.com"
-            
-            [[params.links.list1.link]]
-                text = "Email"
-                url = "jcgalanh@gmail.com"
-
-    [[params.links]]
-        [params.links.list2]
-            heading = "Social"
-
-            [[params.links.list2.link]]
-            text = "Twitter"
-            url = "#"
-
-            [[params.links.list2.link]]
-            text = "Instagram"
-            url = "#"
-
-            [[params.links.list2.link]]
-            text = "YouTube"
-            url = "#"
+disqusShortname = ""
 
 
+[params]
+    name = "Juan Carlos Galán Hernández"
+    description = "Developer, Designer, Researcher"
+
+    custom_css = []
+    custom_js = []
+    favicon = "favicon.ico"
+
+    image = ""
+
+    [params.error404]
+        heading = "Page couldn't be found"
+        text = "Please visit [this page](/)"
+
+    [params.navigation]
+        title = "Unlimited Src Works"
+        subtitle = "by Juan Carlos Galán Hernández"
+        menu = "Menu"
+
+    [[params.navigation.links]]
+        name = "Home"
+        url = "#"
+
+    [[params.navigation.links]]
+        name = "Blog"
+        url = "blog"
+
+[params.banner]
+    title = "Juan Carlos Galán Hernández"
+    subtitle = "Developer, Designer, Reseacher"
+    buttonText = "About me"
+        
