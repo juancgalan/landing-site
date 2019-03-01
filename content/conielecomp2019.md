@@ -1,7 +1,7 @@
 ---
 title: "Video Game Design with Rx Programming"
 date: 2019-02-28T17:59:27-06:00
-draft: true
+draft: false
 ---
 
 In this workshop, you are going to implement a barebones game based on Atari's
